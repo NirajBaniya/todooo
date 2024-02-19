@@ -1,0 +1,1 @@
+const mySqual = require('./config')
