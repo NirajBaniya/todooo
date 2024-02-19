@@ -5,9 +5,7 @@ console.log(process.env)
 var port = process.env.PORT
 const app = express()
 const router = require('./routes')
-app.use('/',(req,res)=>{
-    res.json({message:"Home Page"})
-})
+app.use("/", router)
 const server = http.createServer(app)
 
 

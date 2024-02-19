@@ -3,8 +3,11 @@ const homePage = (req,res)=>{
 }
 
 
-const userRegister = (req, res)=>{}
-
+const userRegister = (req, res)=>{
+    var data = req.body;
+    res.status(200).json({message:"User Register"})
+}
+ 
 const userLogin = (req,res)=>{}
 
 
